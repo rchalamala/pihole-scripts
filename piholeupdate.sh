@@ -7,4 +7,4 @@ sudo apt-get autoremove -y
 sudo apt-get autoclean -y
 pihole -up
 pihole -g
-pihole restartdns
+pihole restardns reload-lists
